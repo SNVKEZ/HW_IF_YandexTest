@@ -23,8 +23,10 @@ public class RunTest {
     @Test
     public void Test2(){
         String s1 = "";
-        for(int i=0;i<4;i++){
+        for(int i=0;i<5;i++){
             s1+="A";
+
+
         }
 
         Assert.assertEquals("s1!=s",s1,s);
